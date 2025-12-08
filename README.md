@@ -128,21 +128,25 @@ To perform unsupervised phoneme-like segmentation from raw speech audio.
    - Delta & psi heatmaps  
    - State segmentation timeline  
 
- **Inference**
-The system successfully discovers acoustic cluster states and decodes phoneme-like segments. Visualizations confirm alignment between acoustic changes and decoded boundaries. The experiment demonstrates how MFCC, clustering, HMM, and Viterbi together form the backbone of classical speech recognition pipelines.
+Lab 10 – Voice-Based Telephone Directory Lookup
 
+A speech recognition system that retrieves telephone directory entries from uploaded MP3 audio containing spelled-out names.
 
+Features:
 
-# ⚙️ Tools & Technologies
-- Python  
-- NumPy  
-- SciPy  
-- Librosa  
-- Matplotlib  
-- scikit-learn  
-- Jupyter Notebook  
+Upload MP3 audio (e.g., “J O H N”)
 
+Automatic MP3 → WAV conversion
 
+ASR-based letter recognition
+
+Letter-to-name reconstruction
+
+Directory search with suggestions
+Example:
+
+Audio: "P R A T I K S H A"
+Output: "PRATIKSHA → +91-9876543105"
 
 
 ```bash
